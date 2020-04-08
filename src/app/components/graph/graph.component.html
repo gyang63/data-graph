@@ -1,0 +1,17 @@
+<section class="graph-section">
+  <header class="graph-header">
+    <div class="list">
+      <div class="list-item">
+        <input
+          class="search-bar"
+          type="text"
+          placeholder="Press Enter to Search Node..."
+          (keypress)="searchNodeByLabel($event)"
+        />
+      </div>
+    </div>
+  </header>
+  <div class="graph-content">
+    <app-network-graph [options]="networkGraphOptions"></app-network-graph>
+  </div>
+</section>

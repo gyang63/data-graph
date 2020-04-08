@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GraphComponent } from './components/graph/graph.component';
+import { NetworkGraphComponent } from './components/network-graph/network-graph.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GraphComponent,
+    NetworkGraphComponent
   ],
   imports: [
     BrowserModule,
